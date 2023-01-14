@@ -17,12 +17,9 @@ window.onload = function(){
         a.setAttribute("onclick", "send_email("+list[i][0]+")");
 
         var span = document.createElement("span");
-        span.setAttribute("class", "last_item_dorm");
+        span.setAttribute("class", "list_item_dorm");
         var dorm_text = document.createTextNode(list[i][3]);
         span.appendChild(dorm_text);
-        span.style.float = "right";
-        span.style.fontSize = "15px";
-        span.style.paddingRight = "10px";
 
         new_student.appendChild(a);
         new_student.appendChild(span);
