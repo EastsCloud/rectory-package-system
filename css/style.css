@@ -6,6 +6,7 @@
 
 #search_bar {
     width: 100%;
+    max-width: 400px;
     background: rgba(201, 187, 187, 0.2);
     display: inline-block;
     border: solid;
@@ -14,6 +15,7 @@
 
 #input {
     background: transparent;
+    max-width: 300px;
     border: 0;
     outline: none;
     padding: 18px 30px;
