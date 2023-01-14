@@ -1,0 +1,52 @@
+#main {
+    width: 94%;
+    min-height: 90vh;
+    padding: 2% 3%;
+}
+
+#search_bar {
+    width: 100%;
+    background: rgba(201, 187, 187, 0.2);
+    display: inline-block;
+    border: solid;
+    border-radius: 10px;
+}
+
+#input {
+    background: transparent;
+    border: 0;
+    outline: none;
+    padding: 18px 30px;
+    font-size: 20px;
+}
+
+#name_list {
+    list-style-type: none;
+    margin: 0% 0%;
+    padding: 0%;
+    display: none;
+}
+
+.list_item {
+    border-top: solid;
+    font-size: 20px;
+    padding: 1.5%;
+    display: none;
+}
+
+.list_item_name {
+    padding-left: 18px;
+}
+
+#search_btn {
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    float: right;
+}
+
+#search_btn_img {
+    width: 25px;
+}
