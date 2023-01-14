@@ -5,7 +5,7 @@
 }
 
 #logo {
-    width: 25%;
+    width: 35%;
 }
 
 #search_bar {
@@ -22,7 +22,7 @@
     border: 0;
     outline: none;
     padding: 18px 30px;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 #name_list {
@@ -34,7 +34,7 @@
 
 .list_item {
     border-top: solid;
-    font-size: 40px;
+    font-size: 50px;
     padding: 1.5%;
     display: none;
 }
@@ -45,7 +45,7 @@
 
 .list_item_dorm {
     float: right;
-    font-size: 25px;
+    font-size: 35px;
     padding-right: 10px;
     padding-top: 20px;
 }
@@ -53,12 +53,19 @@
 #search_btn {
     border: 0;
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     cursor: pointer;
     float: right;
 }
 
 #search_btn_img {
     width: 25px;
+}
+
+#cr_tos {
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    font-size: 27px;
 }
