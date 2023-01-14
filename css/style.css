@@ -6,7 +6,7 @@
 
 #search_bar {
     width: 100%;
-    max-width: 400px;
+    height: 15%;
     background: rgba(201, 187, 187, 0.2);
     display: inline-block;
     border: solid;
@@ -15,11 +15,10 @@
 
 #input {
     background: transparent;
-    max-width: 300px;
     border: 0;
     outline: none;
     padding: 18px 30px;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 #name_list {
@@ -31,7 +30,7 @@
 
 .list_item {
     border-top: solid;
-    font-size: 20px;
+    font-size: 40px;
     padding: 1.5%;
     display: none;
 }
@@ -40,11 +39,18 @@
     padding-left: 18px;
 }
 
+.list_item_dorm {
+    float: right;
+    font-size: 25px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
 #search_btn {
     border: 0;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     cursor: pointer;
     float: right;
 }
