@@ -64,9 +64,9 @@
 }
 
 #cr_tos {
-    width: 100%;
+    width: 90%;
     position: absolute;
-    bottom: 20px;
+    bottom: 40px;
     font-size: 27px;
 }
 
