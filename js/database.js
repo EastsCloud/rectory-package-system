@@ -6,4 +6,4 @@ list = [
     ["4", "Calvin", "Davis", "Dormitory1", "qingyang.zhu@rectorywolves.org"],
     ["5", "Christina", "Chen", "Dormitory3", "qingyang.zhu@rectorywolves.org"],
     ["6", "Cindy", "Brown", "Dormitory2", "qingyang.zhu@rectorywolves.org"],
-]
+];
