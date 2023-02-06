@@ -1,4 +1,11 @@
+<!--
+    Rectory Package Sorting and Notification System
+    By Qingyang Zhu (Oscar) | EastsCloud Co.
+    Belongs to Rectory School, CT
+-->
+
 <!DOCTYPE html>
+
 <html>
 
     <head>
@@ -11,6 +18,17 @@
     </head>
 
     <body>
+        
+        <div id="loading_page">
+            <img id="loading_gif" src="images/loading.gif" />
+        </div>
+
+        <div id="login_page">
+            <div id="login_area">
+                <input id="login_enter" placeholder="Enter Access Code..." type="password" />
+                <input id="login_btn" onclick="access()" value="Login" type="button" />
+            </div>
+        </div>
 
         <div id="main">
             
@@ -18,21 +36,23 @@
 
             <form action="" id="search_bar">
                 <input type="text" id="input" onkeyup="search_input()" placeholder="Enter a name..." />
-                <button type="button" id="search_btn" onclick="show_list()">
+                <button type="button" id="search_btn" onclick="show_database()">
                     <img id="search_btn_img" src="images/search.png" />
                 </button>
-                <ul id="name_list"></ul>
+                <ul id="name_database"></ul>
             </form>
 
             <div id="cr_tos">
-                <span>©Copyright 2018 EastsCloud Corporation, All Rights Reserved.</span>
+                <span>©Copyright 2018 EastsCloud Corporation. All Rights Reserved.</span>
                 <a href="html/tos.html">Terms</a><br/>
-                <span>©Copyright 2020 Rectory School, CT</span>
+                <span>©Copyright 2020 Rectory School, CT</span><br/>
             </div>
             
         </div>
         
         <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script type="text/javascript" src="js/passcode.js"></script>
+        <script type="text/javascript" src="js/verification.js"></script>
         <script type="text/javascript" src="js/database.js"></script>
         <script type="text/javascript" src="js/script.js"></script>
 
