@@ -18,8 +18,8 @@ function verification() {
     }
     else {
         if(login_date == 0 || login_code == 0) alert("This is a new device. Please login.");
-        if(Date.now() - login_date > 604800000) alert("Your login has expired. Please login again.");
-        if(passcode != login_code) alert("The passcode has changed. Please login again.");
+        else if(Date.now() - login_date > 604800000) alert("Your login has expired. Please login again.");
+        else if(passcode != login_code) alert("The passcode has changed. Please login again.");
         loading_page.style.display = "none";
         login_page.style.display = "block";
     }
