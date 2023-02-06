@@ -1,7 +1,53 @@
+/*
+ * Main Stylesheet for Rectory Package Sorting and Notification System
+ * By Qingyang Zhu (Oscar) | EastsCloud Co.
+ * Belongs to Rectory School, CT
+*/
+
 #main {
     width: 94%;
-    min-height: 90vh;
+    min-height: 88vh;
     padding: 2% 3%;
+    display: none;
+}
+
+#loading_page {
+    width: 94%;
+    min-height: 88vh;
+    padding: 2% 3%;
+}
+
+#loading_gif {
+    width: 10%;
+    margin-left: 40%;
+    margin-top: 39vh;
+}
+
+#login_page {
+    width: 94%;
+    min-height: 88vh;
+    padding: 2% 3%;
+    display: none;
+}
+
+#login_area {
+    width: 70%;
+    height: 20vh;
+    margin-left: 15%;
+    margin-top: 39vh;
+}
+
+#login_enter {
+    width: 100%;
+    height: 30%;
+    margin-bottom: 2%;
+    font-size: 30px;
+}
+
+#login_btn {
+    width: 100%;
+    height: 30%;
+    font-size: 30px;
 }
 
 #logo {
@@ -22,32 +68,35 @@
     border: 0;
     outline: none;
     padding: 18px 30px;
-    font-size: 60px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#name_list {
+#name_database {
     list-style-type: none;
     margin: 0% 0%;
     padding: 0%;
     display: none;
 }
 
-.list_item {
+.database_item {
     border-top: solid;
     font-size: 50px;
     padding: 1.5%;
     display: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.list_item_name {
+.database_item_name {
     padding-left: 18px;
 }
 
-.list_item_dorm {
+.database_item_dorm {
     float: right;
     font-size: 35px;
     padding-right: 10px;
     padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #search_btn {
@@ -55,18 +104,20 @@
     border-radius: 50%;
     width: 100px;
     height: 100px;
+    background: transparent;
     cursor: pointer;
     float: right;
+    margin-top: 10px;
 }
 
 #search_btn_img {
-    width: 25px;
+    width: 50px;
 }
 
 #cr_tos {
-    width: 90%;
+    width: 100%;
     position: absolute;
-    bottom: 40px;
-    font-size: 27px;
+    bottom: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
